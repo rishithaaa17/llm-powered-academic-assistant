@@ -5,7 +5,7 @@ from typing import Dict, Any
 import re
 
 # Configure DSPy with Groq
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "..")
 
 # Initialize DSPy LM
 lm = dspy.LM(

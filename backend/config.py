@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API Configuration
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "..")
 
 # ChromaDB Configuration
 CHROMA_COLLECTION_NAME = "study_chunks"
